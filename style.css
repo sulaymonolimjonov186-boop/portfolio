@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}   
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  padding: 50px 0;
+}
+
+.header__container {
+  border: 3px solid aqua;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.header__text {
+  color: aqua;
+  box-shadow: 0 0 5px rgba(0, 229, 255, 0.5);
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header__item {
+  color: aqua;
+}
+
+.header__item:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.fa-solid {
+  gap: 20px;
+  color: aqua;
+}
+
+.fa-regular {
+  gap: 20px;
+  color: aqua;
+}
+
+/* header tugadi */
+
+.men__container{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.men__birga{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.men__best{
+    color: white;
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.men__titile{
+    color: white;
+    font-size: 40px;
+}
+
+.men__text{
+    color: white;
+    padding: 60px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.men__text span{
+    color: aqua;
+}
+
+.fa-brands{
+     color: aqua;
+}
+
+.men__left__btn{
+    color: black;
+    background: aqua;
+    font-size: 20px;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding: 20px ;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.men__right img{
+    width: 550px;
+    height: 550px;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.men__right__img:hover{
+    transform:rotateY(360deg);
+    transition: 2s  ;
+     transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,229,255,.4);
+}
+
+/* men haqimda tugadi */
+
+.oilam__left p{
+    color: white;
+    font-size: 20px;
+}
+
+.oilam__left span{
+    color: aqua;
+}
+
+.oilam__left h1{
+    color: white;
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.oilam__bosh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oilam__right img {
+    width: 500px;
+    height: 500px;
+    border: 1px solid aqua;
+    border-radius: 100px 0 100px 0;
+}
+
+.oilam__right:hover img{
+     transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,229,255,.4);
+}
+
+.oilam__best{
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.oilam__best:hover{
+    color: orange;
+}
+
+.oilam__best:hover::after{
+    content: "💫";
+}
+
+.oilam__right img:hover{
+      transform:rotateY(360deg);
+    transition: 2s;
+}
+
+.adam-bosh{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adam__left img{
+    width: 500px;
+    height: 500px;
+    border-radius: 100px 0 100px 0;
+    border: 3px solid orange;
+
+}
+
+.adam__left img:hover{
+    border: 3px solid orange;
+    transform:rotateY(360deg);
+    transition: 2s;
+       transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(199, 174, 12, 0.4);
+}
+
+.adam__right h1{
+    color: white;
+    font-size: 40px;
+}
+
+.adam__right p{
+    color: white;
+    font-size: 20px;
+}
+
+.adam__btn{
+    color: black;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    background: aqua;
+    padding: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.oyim__bosh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oyim__right img{
+    width: 500px;
+    height: 500px;
+    border: 1px solid aqua;
+    border-radius: 100px 0 100px 0;
+}
+
+.oyim__right img:hover{
+    border: 3px solid orange;
+    transform:rotateY(360deg);
+    transition: 2s;
+       transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,229,255,.4);
+}
+
+.oyim__left h1{
+    color: white;
+    font-size: 40px;
+}
+
+.oyim__left h1:hover::after{
+content: "❤️";
+}
+
+.oyim__left p{
+    color: white;
+    font-size: 20px;
+}
+
+.oyim__left button{
+    color: black;
+    background: aqua;
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.opam-bosh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.opam-bosh img{
+    width: 500px;
+    height: 500px;
+    border: 1px solid orange;
+    border-radius: 100px 0 100px 0;
+}
+
+.opam-bosh img:hover{
+      transform:rotateY(360deg);
+    transition: 2s;
+       transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,229,255,.4);
+}
+
+.opam-bosh h1{
+    font-size: 40px;
+    color: white;
+}
+
+.opam-bosh h1:hover::after{
+    content: "🥼";
+}
+
+.opam-bosh p{
+    color: white;
+    font-size: 20px;
+}
+
+.opam-bosh button{
+    color: black;
+    background: aqua;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.akam__bosh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.akam__right img{
+    width: 500px;
+    height: 500px;
+    border-radius: 100px 0 100px 0;
+    border: 1px solid aqua;
+}
+
+.akam__left h1{
+    color: white;
+    font-size: 50px;
+}
+
+.akam__left p{
+    color: white;
+    font-size: 25px;
+}
+
+.akam__left button{
+    color: black;
+    background: aqua;
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.akam__right img:hover{
+        transform:rotateY(360deg);
+    transition: 2s;
+       transform: translateY(-20px);
+    box-shadow: 0 15px 30px rgba(0,229,255,.4);
+}
+
+.texts{
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.texts h1{
+    font-size: 40px;
+}
+
+.texts p{
+    font-size: 20px;
+    padding: 50px;
+}
+
+.texts span{
+    color: aqua;
+    font-size: 30px;
+}
+
+/* oila tugadi */
+
+.qiziq__futboll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right img{
+    width: 600px;
+    height: 500px;
+    border: 3px solid orange;
+    border-radius: 100px 0 100px 0;
+}
+
+.left h1{
+    color: aqua;
+    font-size: 50px;
+}
+
+.left h2{
+    color: white;
+    font-size: 20px;
+    padding: 50px 0;
+
+}
+
+.left p{
+    color: aqua;
+    font-size: 20px;
+}
+
+.left button{
+    color: black;
+    background: aqua;
+    border: 1px solid aqua;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+
+.qiziq__titile{
+    padding: 100px 0 ;
+    text-align: center;
+    color: white;
+}
+
+.cards__father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards{
+    border: 3px solid aqua;
+    width: 400px;
+    height: 550px;
+    border-radius: 100px 0 100px 0;
+    text-align: center;
+    transition: 2s;
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,229,255,.4);
+}
+
+.cards img{
+    width: 100%;
+    height: 300px;
+    border-radius: 100px 0 100px 0;
+}
+
+.cards h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards p{
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.cards button{
+    color: black;
+    background: aqua;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+
+/* qiziq tugadi */
+
+
+.contact__best{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact{
+    height: 500px;
+    padding: 100px 0;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact__left h1{
+    color: #000;
+
+    span{
+        color: aqua;
+    }
+}
+
+.contact__left p{
+    color: #000;
+    padding: 50px 0;
+    font-size: 20px;
+}
+
+.contact__left button{
+    background: aqua;
+    color: #000;
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+
+.contact__right{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.contact__right input{
+    color: #000;
+    padding: 20px 100px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+
+.contact__right button{
+    background: aqua;
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text__loyiha{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.loyiha__cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card_loyiha{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+.card_loyiha img{
+    border-radius: 20px; 
+    border: 3px solid aqua;   
+}
+
+.text__loyiha h1{
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+.text__loyiha p{
+    font-size: 20px;
+}
+
+.footer__container{
+    padding: 300px 0;
+}
+
+.footer__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.footer_card h3{
+    color: aqua;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.footer_card5{
+ h3{
+        color: aqua;
+        padding: 30px 0;
+    }
+}
+   
